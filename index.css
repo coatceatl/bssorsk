@@ -2,6 +2,21 @@
   padding: 15px;
   background-color: #d6effb;
 }
+.catalog-filter-list {
+  display: contents;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+a {
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #6c8a9b;
+  background-color: #fff;
+  border: 1px solid #bce3fc;
+  border-radius: 3px;
+}
 .menu {
   background-color: #f4fbfe;
 }
