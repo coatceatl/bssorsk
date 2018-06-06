@@ -13,15 +13,6 @@
 .catalog-filter-button {
   display: none;
 }
-@media(max-width: 768px) {
-  .catalog-filter-button {
-    display: flex;
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-  }
-}
 .catalog-filter-list {
   display: contents;
   margin: 0;
@@ -56,4 +47,47 @@
 .menu {
   background-color: #f4fbfe;
 }
+@media(max-width: 768px) {
+  .catalog-filter-button {
+    display: flex;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    height: 20px;
+    width: 20px;
+  }
+
+  .catalog-filter {
+    display: block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 40%;
+    background-color: #f4fbfe;
+  }
+
+  .catalog-filter-header {
+    width: 100%;
+  }
+  .catalog-filter-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100vh;
+  }
+  .catalog-filter-item {
+    display: flex;
+    flex-direction: row;
+  }
+  .catalog-filter-link {
+    padding: 12px 25px 12px 10px;
+    width: 60%;
+  }
+  .dropdown-toggle::after {
+    transform: rotate(270deg);
+  }
+}
+
 
