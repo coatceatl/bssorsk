@@ -44,6 +44,12 @@
 .catalog-filter-input {
   vertical-align: middle;
 }
+.modal-menu-list {
+  width: 500px;
+}
+.modal-menu-filter-item {
+  display: inline-flex;
+}
 .menu {
   background-color: #f4fbfe;
 }
