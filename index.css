@@ -2,6 +2,11 @@
   padding: 15px;
   background-color: #d6effb;
 }
+.catalog-filter-header::before {
+  content: 'Подобрать товар:';
+  margin-right: 5px;
+  color: #000;
+}
 .catalog-filter-list {
   display: contents;
   margin: 0;
@@ -24,10 +29,6 @@
 }
 .dropdown-toggle::after {
   margin-right: 5px;
-}
-.catalog-filter-list::before {
-  content: 'Подобрать товар:';
-  color: #000;
 }
 .menu {
   background-color: #f4fbfe;
