@@ -22,6 +22,13 @@
   border-radius: 3px;
   cursor: pointer;
 }
+.dropdown-toggle::after {
+  margin-right: 5px;
+}
+.catalog-filter-list::before {
+  content: 'Подобрать товар:';
+  color: #000;
+}
 .menu {
   background-color: #f4fbfe;
 }

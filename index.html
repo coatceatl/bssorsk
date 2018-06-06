@@ -14,8 +14,15 @@
         <div class='col-md-9 catalog-filter'>
           <div class='row'>
           <ul class='catalog-filter-list'>
-            <li class='catalog-filter-item'>
-              <a class='catalog-filter-link dropdown-toggle' data-toggle='dropdown' href='#'>Цена</a>
+            <li class='catalog-filter-item dropdown'>
+              <a class='catalog-filter-link dropdown-toggle' data-toggle='dropdown' href='#'>Цена
+                <span class='caret'></span>
+              </a>
+              <ul class='modal-menu-list dropdown-menu'>
+                <li><a class='dropdown-item' href="#">Item 1</a></li>
+                <li><a class='dropdown-item' href="#">Item 2</a></li>
+                <li><a class='dropdown-item' href="#">Item 3</a></li>
+              </ul>
             </li>
             <li class='catalog-filter-item'>
               <a class='catalog-filter-link dropdown-toggle' data-toggle='dropdown' href='#'>Бренд</a>
@@ -39,8 +46,8 @@
               <a class='catalog-filter-link dropdown-toggle' data-toggle='dropdown' href='#'>Назначение</a>
             </li>
             <li class='catalog-filter-item'>
-              <label class='catalog-filter-link' for='inlineCheckbox1'>
-                <input class='catalog-filter-input' type='checkbox' id='inlineCheckbox1' value='option1'>
+              <label class='catalog-filter-link'>
+                <input class='catalog-filter-input' type='checkbox' value=''>
                 <span>Резка</span>
               </label>
             </li>
@@ -60,8 +67,8 @@
               <a class='catalog-filter-link dropdown-toggle' data-toggle='dropdown' href='#'>Тип петли</a>
             </li>
             <li class='catalog-filter-item'>
-              <label class='catalog-filter-link' for='inlineCheckbox1'>
-                <input class='catalog-filter-input' type='checkbox' id='inlineCheckbox1' value='option1'>
+              <label class='catalog-filter-link'>
+                <input class='catalog-filter-input' type='checkbox' value=''>
                 <span>Узор</span>
               </label>
             </li>
@@ -82,5 +89,8 @@
         </div>
       </div>
     </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
