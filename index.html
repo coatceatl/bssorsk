@@ -10,10 +10,11 @@
   <body>
     <div class='container'>
       <div class='row'>
-        <div class='col-md-3 menu'>3</div>
+        <div class='col-md-3 menu'></div>
         <div class='col-md-9 catalog-filter'>
-          <div class='row'>
-            <span class='catalog-filter-header'></span>
+          <div class='row catalog-filter-row'>
+            <span class='catalog-filter-header'>Подобрать товар:</span>
+            <button class='catalog-filter-button'></button>
             <ul class='catalog-filter-list'>
               <li class='catalog-filter-item dropdown'>
                 <a class='catalog-filter-link dropdown-toggle' data-toggle='dropdown' href='#'>Цена
@@ -81,9 +82,9 @@
                 </ul>
               </li>
               <li class='catalog-filter-item'>
-                <label class='catalog-filter-link'>
+                <label class='catalog-filter-link checkbox'>
                   <input class='catalog-filter-input' type='checkbox' value=''>
-                  <span>Резка</span>
+                  <span class='catalog-filter-input-description'>Резка</span>
                 </label>
               </li>
               <li class='catalog-filter-item'>
@@ -127,9 +128,9 @@
                 </ul>
               </li>
               <li class='catalog-filter-item'>
-                <label class='catalog-filter-link'>
+                <label class='catalog-filter-link checkbox'>
                   <input class='catalog-filter-input' type='checkbox' value=''>
-                  <span>Узор</span>
+                  <span class='catalog-filter-input-description'>Узор</span>
                 </label>
               </li>
               <li class='catalog-filter-item'>

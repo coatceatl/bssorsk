@@ -1,11 +1,26 @@
 .catalog-filter {
   padding: 15px;
+  width: 100%;
   background-color: #d6effb;
 }
-.catalog-filter-header::before {
-  content: 'Подобрать товар:';
+.catalog-filter-row {
+  padding: 15px;
+}
+.catalog-filter-header {
   margin-right: 5px;
   color: #000;
+}
+.catalog-filter-button {
+  display: none;
+}
+@media(max-width: 768px) {
+  .catalog-filter-button {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
 }
 .catalog-filter-list {
   display: contents;
@@ -29,6 +44,14 @@
 }
 .dropdown-toggle::after {
   margin-right: 5px;
+}
+.checkbox {
+  display: initial;
+  margin-bottom: 0;
+  margin-right: 3px;
+}
+.catalog-filter-input {
+  vertical-align: middle;
 }
 .menu {
   background-color: #f4fbfe;
