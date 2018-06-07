@@ -46,12 +46,16 @@
 }
 .modal-menu-list {
   width: 300px;
+  padding: 5px;
 }
 .modal-menu-filter-item {
   display: inline-flex;
 }
 .catalog-filter-link.selected {
   background-color: #61bdfc;
+}
+.modal-menu-applying {
+  display: grid;
 }
 .menu {
   background-color: #f4fbfe;
