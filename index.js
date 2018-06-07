@@ -19,7 +19,7 @@ $(document).ready(function() {
     $(this).addClass('selected');
   });
 
-  $('.catalog-filter-row').submit(function(e) {
+  $('.catalog-filter-row').submit(function() {
     console.log('send');
   });
 
