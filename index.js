@@ -10,10 +10,12 @@ $(document).ready(function() {
     });
   });
 
+  $('.catalog-filter-row').submit(function(e) {
+    console.log('send');
+  });
 
   $('.checkbox').bind('click', function(e) {
     $(this).addClass('selected');
-    console.log('clicked ' + this.nodeName);
   });
 });
 

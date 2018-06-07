@@ -58,6 +58,9 @@
 .catalog-filter-link.selected {
   background-color: #61bdfc;
 }
+.selected:parent {
+  background-color: #61bdfc;
+}
 .modal-menu-applying {
   display: grid;
 }
