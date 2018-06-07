@@ -87,9 +87,7 @@
   }
 
   .catalog-filter-list.mobile-open {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    display: block;
     width: 100%;
     height: 100vh;
     position: absolute;
@@ -99,10 +97,10 @@
     left: 0;
     background-color: #f4fbfe;
   }
-  .catalog-filter-list.mobile-open li:nth-child(n+10) {
+  .catalog-filter-list.mobile-open li:nth-child(n+5) {
     display: none;
   }
-  .catalog-filter-list.mobile-open.show li:nth-child(n+10) {
+  .catalog-filter-list.mobile-open.show li:nth-child(n+5) {
     display: flex;
   }
   .catalog-filter-item {
