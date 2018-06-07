@@ -3,5 +3,11 @@ $(document).ready(function() {
     e.preventDefault();
     $('.catalog-filter-list').toggleClass('mobile-open');
   });
+
+  $(function(){
+    $('.btn-open').click(function(){
+      $('.catalog-filter-list').toggleClass('show');
+    });
+  });
 });
 

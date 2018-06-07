@@ -93,7 +93,12 @@
     left: 0;
     background-color: #f4fbfe;
   }
-
+  .catalog-filter-list.mobile-open li:nth-child(n+15) {
+    display: none;
+  }
+  .catalog-filter-list.mobile-open.show li:nth-child(n+15) {
+    display: flex;
+  }
   .catalog-filter-item {
     display: flex;
     flex-direction: row;
@@ -109,7 +114,8 @@
     margin-top: -5px;
     margin-left: -4px;
   }
-  .modal-menu-applying.main {
+  .modal-menu-applying.main,
+  .modal-menu-show-hide {
     display: grid;
   }
 }
