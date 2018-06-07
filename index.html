@@ -26,6 +26,27 @@
                   </a>
                   <ul class='modal-menu-list dropdown-menu'>
                     <li class='modal-menu-header'>
+                      <a href='#'>Назад</a>
+                    </li>
+                    <li class='modal-menu-body'>
+                      <div class='modal-menu-filter row'>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <input class='max-price' name='max-price' type='text' value='5000'>
+                        </div>
+                      </div>
+                    </li>
+                    <li class='modal-menu-applying'>
+                      <button type='submit' class='btn-applying'>Применить</button>
+                    </li>
+                  </ul>
+                </li>
+                <li class='catalog-filter-item dropdown'>
+                  <a class='catalog-filter-link dropdown-toggle' data-toggle='dropdown' href='#'>Бренд
+                    <span class='catalog-filter-selected'></span>
+                    <span class='caret'></span>
+                  </a>
+                  <ul class='modal-menu-list dropdown-menu'>
+                    <li class='modal-menu-header'>
                     </li>
                     <li class='modal-menu-body'>
                       <div class='modal-menu-filter row'>
@@ -66,60 +87,226 @@
                     </li>
                   </ul>
                 </li>
-                <li class='catalog-filter-item'>
-                  <a class='catalog-filter-link dropdown-toggle' data-toggle='dropdown' href='#'>Бренд</a>
+                <li class='catalog-filter-item dropdown'>
+                  <a class='catalog-filter-link dropdown-toggle' data-toggle='dropdown' href='#'>Коллекция
+                    <span class='catalog-filter-selected'></span>
+                    <span class='caret'></span>
+                  </a>
                   <ul class='modal-menu-list dropdown-menu'>
-                    <li><a class='dropdown-item' href="#">Item 1</a></li>
-                    <li><a class='dropdown-item' href="#">Item 2</a></li>
-                    <li><a class='dropdown-item' href="#">Item 3</a></li>
+                    <li class='modal-menu-header'>
+                    </li>
+                    <li class='modal-menu-body'>
+                      <div class='modal-menu-filter row'>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 1</span>
+                          </label>
+                        </div>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 2</span>
+                          </label>
+                        </div>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 3</span>
+                          </label>
+                        </div>
+                        <div class='modal-menu-filter-item col-12 col-lg-6 '>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 4</span>
+                          </label>
+                        </div>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 5</span>
+                          </label>
+                        </div>
+                      </div>
+                    </li>
+                    <li class='modal-menu-applying'>
+                      <button type='submit' class='btn-applying'>Применить</button>
+                    </li>
                   </ul>
                 </li>
-                <li class='catalog-filter-item'>
-                  <a class='catalog-filter-link dropdown-toggle' data-toggle='dropdown' href='#'>Коллекция</a>
+                <li class='catalog-filter-item dropdown'>
+                  <a class='catalog-filter-link dropdown-toggle' data-toggle='dropdown' href='#'>Помещение
+                    <span class='catalog-filter-selected'></span>
+                    <span class='caret'></span>
+                  </a>
                   <ul class='modal-menu-list dropdown-menu'>
-                    <li><a class='dropdown-item' href="#">Item 1</a></li>
-                    <li><a class='dropdown-item' href="#">Item 2</a></li>
-                    <li><a class='dropdown-item' href="#">Item 3</a></li>
+                    <li class='modal-menu-header'>
+                    </li>
+                    <li class='modal-menu-body'>
+                      <div class='modal-menu-filter row'>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 1</span>
+                          </label>
+                        </div>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 2</span>
+                          </label>
+                        </div>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 3</span>
+                          </label>
+                        </div>
+                        <div class='modal-menu-filter-item col-12 col-lg-6 '>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 4</span>
+                          </label>
+                        </div>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 5</span>
+                          </label>
+                        </div>
+                      </div>
+                    </li>
+                    <li class='modal-menu-applying'>
+                      <button type='submit' class='btn-applying'>Применить</button>
+                    </li>
                   </ul>
                 </li>
-                <li class='catalog-filter-item'>
-                  <a class='catalog-filter-link dropdown-toggle' data-toggle='dropdown' href='#'>Помещение</a>
+                <li class='catalog-filter-item dropdown'>
+                  <a class='catalog-filter-link dropdown-toggle' data-toggle='dropdown' href='#'>Применение
+                    <span class='catalog-filter-selected'></span>
+                    <span class='caret'></span>
+                  </a>
                   <ul class='modal-menu-list dropdown-menu'>
-                    <li><a class='dropdown-item' href="#">Item 1</a></li>
-                    <li><a class='dropdown-item' href="#">Item 2</a></li>
-                    <li><a class='dropdown-item' href="#">Item 3</a></li>
+                    <li class='modal-menu-header'>
+                    </li>
+                    <li class='modal-menu-body'>
+                      <div class='modal-menu-filter row'>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 1</span>
+                          </label>
+                        </div>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 2</span>
+                          </label>
+                        </div>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 3</span>
+                          </label>
+                        </div>
+                      </div>
+                    </li>
+                    <li class='modal-menu-applying'>
+                      <button type='submit' class='btn-applying'>Применить</button>
+                    </li>
                   </ul>
                 </li>
-                <li class='catalog-filter-item'>
-                  <a class='catalog-filter-link dropdown-toggle' data-toggle='dropdown' href='#'>Применение</a>
+                <li class='catalog-filter-item dropdown'>
+                  <a class='catalog-filter-link dropdown-toggle' data-toggle='dropdown' href='#'>Высота ворса
+                    <span class='catalog-filter-selected'></span>
+                    <span class='caret'></span>
+                  </a>
                   <ul class='modal-menu-list dropdown-menu'>
-                    <li><a class='dropdown-item' href="#">Item 1</a></li>
-                    <li><a class='dropdown-item' href="#">Item 2</a></li>
-                    <li><a class='dropdown-item' href="#">Item 3</a></li>
+                    <li class='modal-menu-header'>
+                    </li>
+                    <li class='modal-menu-body'>
+                      <div class='modal-menu-filter row'>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 1</span>
+                          </label>
+                        </div>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 2</span>
+                          </label>
+                        </div>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 3</span>
+                          </label>
+                        </div>
+                      </div>
+                    </li>
+                    <li class='modal-menu-applying'>
+                      <button type='submit' class='btn-applying'>Применить</button>
+                    </li>
                   </ul>
                 </li>
-                <li class='catalog-filter-item'>
-                  <a class='catalog-filter-link dropdown-toggle' data-toggle='dropdown' href='#'>Высота ворса</a>
+                <li class='catalog-filter-item dropdown'>
+                  <a class='catalog-filter-link dropdown-toggle' data-toggle='dropdown' href='#'>Класс
+                    <span class='catalog-filter-selected'></span>
+                    <span class='caret'></span>
+                  </a>
                   <ul class='modal-menu-list dropdown-menu'>
-                    <li><a class='dropdown-item' href="#">Item 1</a></li>
-                    <li><a class='dropdown-item' href="#">Item 2</a></li>
-                    <li><a class='dropdown-item' href="#">Item 3</a></li>
+                    <li class='modal-menu-header'>
+                    </li>
+                    <li class='modal-menu-body'>
+                      <div class='modal-menu-filter row'>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 1</span>
+                          </label>
+                        </div>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 2</span>
+                          </label>
+                        </div>
+                      </div>
+                    </li>
+                    <li class='modal-menu-applying'>
+                      <button type='submit' class='btn-applying'>Применить</button>
+                    </li>
                   </ul>
                 </li>
-                <li class='catalog-filter-item'>
-                <a class='catalog-filter-link dropdown-toggle' data-toggle='dropdown' href='#'>Класс</a>
+                <li class='catalog-filter-item dropdown'>
+                  <a class='catalog-filter-link dropdown-toggle' data-toggle='dropdown' href='#'>Назначение
+                    <span class='catalog-filter-selected'></span>
+                    <span class='caret'></span>
+                  </a>
                   <ul class='modal-menu-list dropdown-menu'>
-                    <li><a class='dropdown-item' href="#">Item 1</a></li>
-                    <li><a class='dropdown-item' href="#">Item 2</a></li>
-                    <li><a class='dropdown-item' href="#">Item 3</a></li>
-                  </ul>
-                </li>
-                <li class='catalog-filter-item'>
-                  <a class='catalog-filter-link dropdown-toggle' data-toggle='dropdown' href='#'>Назначение</a>
-                  <ul class='modal-menu-list dropdown-menu'>
-                    <li><a class='dropdown-item' href="#">Item 1</a></li>
-                    <li><a class='dropdown-item' href="#">Item 2</a></li>
-                    <li><a class='dropdown-item' href="#">Item 3</a></li>
+                    <li class='modal-menu-header'>
+                    </li>
+                    <li class='modal-menu-body'>
+                      <div class='modal-menu-filter row'>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 1</span>
+                          </label>
+                        </div>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 2</span>
+                          </label>
+                        </div>
+                      </div>
+                    </li>
+                    <li class='modal-menu-applying'>
+                      <button type='submit' class='btn-applying'>Применить</button>
+                    </li>
                   </ul>
                 </li>
                 <li class='catalog-filter-item'>
@@ -128,44 +315,179 @@
                     <span class='catalog-filter-input-description'>Резка</span>
                   </label>
                 </li>
-                <li class='catalog-filter-item'>
-                  <a class='catalog-filter-link dropdown-toggle' data-toggle='dropdown' href='#'>Состав ворса</a>
+                <li class='catalog-filter-item dropdown'>
+                  <a class='catalog-filter-link dropdown-toggle' data-toggle='dropdown' href='#'>Состав ворса
+                    <span class='catalog-filter-selected'></span>
+                    <span class='caret'></span>
+                  </a>
                   <ul class='modal-menu-list dropdown-menu'>
-                    <li><a class='dropdown-item' href="#">Item 1</a></li>
-                    <li><a class='dropdown-item' href="#">Item 2</a></li>
-                    <li><a class='dropdown-item' href="#">Item 3</a></li>
+                    <li class='modal-menu-header'>
+                    </li>
+                    <li class='modal-menu-body'>
+                      <div class='modal-menu-filter row'>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 1</span>
+                          </label>
+                        </div>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 2</span>
+                          </label>
+                        </div>
+                      </div>
+                    </li>
+                    <li class='modal-menu-applying'>
+                      <button type='submit' class='btn-applying'>Применить</button>
+                    </li>
                   </ul>
                 </li>
-                <li class='catalog-filter-item'>
-                  <a class='catalog-filter-link dropdown-toggle' data-toggle='dropdown' href='#'>Способ изготовления</a>
+                <li class='catalog-filter-item dropdown'>
+                  <a class='catalog-filter-link dropdown-toggle' data-toggle='dropdown' href='#'>Способ изготовления
+                    <span class='catalog-filter-selected'></span>
+                    <span class='caret'></span>
+                  </a>
                   <ul class='modal-menu-list dropdown-menu'>
-                    <li><a class='dropdown-item' href="#">Item 1</a></li>
-                    <li><a class='dropdown-item' href="#">Item 2</a></li>
-                    <li><a class='dropdown-item' href="#">Item 3</a></li>
+                    <li class='modal-menu-header'>
+                    </li>
+                    <li class='modal-menu-body'>
+                      <div class='modal-menu-filter row'>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 1</span>
+                          </label>
+                        </div>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 2</span>
+                          </label>
+                        </div>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 2</span>
+                          </label>
+                        </div>
+                      </div>
+                    </li>
+                    <li class='modal-menu-applying'>
+                      <button type='submit' class='btn-applying'>Применить</button>
+                    </li>
                   </ul>
                 </li>
-                <li class='catalog-filter-item'>
-                  <a class='catalog-filter-link dropdown-toggle' data-toggle='dropdown' href='#'>Тип ворса</a>
+                <li class='catalog-filter-item dropdown'>
+                  <a class='catalog-filter-link dropdown-toggle' data-toggle='dropdown' href='#'>Тип ворса
+                    <span class='catalog-filter-selected'></span>
+                    <span class='caret'></span>
+                  </a>
                   <ul class='modal-menu-list dropdown-menu'>
-                    <li><a class='dropdown-item' href="#">Item 1</a></li>
-                    <li><a class='dropdown-item' href="#">Item 2</a></li>
-                    <li><a class='dropdown-item' href="#">Item 3</a></li>
+                    <li class='modal-menu-header'>
+                    </li>
+                    <li class='modal-menu-body'>
+                      <div class='modal-menu-filter row'>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 1</span>
+                          </label>
+                        </div>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 2</span>
+                          </label>
+                        </div>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 2</span>
+                          </label>
+                        </div>
+                      </div>
+                    </li>
+                    <li class='modal-menu-applying'>
+                      <button type='submit' class='btn-applying'>Применить</button>
+                    </li>
                   </ul>
                 </li>
-                <li class='catalog-filter-item'>
-                  <a class='catalog-filter-link dropdown-toggle' data-toggle='dropdown' href='#'>Тип основы</a>
+                <li class='catalog-filter-item dropdown'>
+                  <a class='catalog-filter-link dropdown-toggle' data-toggle='dropdown' href='#'>Тип основы
+                    <span class='catalog-filter-selected'></span>
+                    <span class='caret'></span>
+                  </a>
                   <ul class='modal-menu-list dropdown-menu'>
-                    <li><a class='dropdown-item' href="#">Item 1</a></li>
-                    <li><a class='dropdown-item' href="#">Item 2</a></li>
-                    <li><a class='dropdown-item' href="#">Item 3</a></li>
+                    <li class='modal-menu-header'>
+                    </li>
+                    <li class='modal-menu-body'>
+                      <div class='modal-menu-filter row'>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 1</span>
+                          </label>
+                        </div>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 2</span>
+                          </label>
+                        </div>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 2</span>
+                          </label>
+                        </div>
+                      </div>
+                    </li>
+                    <li class='modal-menu-applying'>
+                      <button type='submit' class='btn-applying'>Применить</button>
+                    </li>
                   </ul>
                 </li>
-                <li class='catalog-filter-item'>
-                  <a class='catalog-filter-link dropdown-toggle' data-toggle='dropdown' href='#'>Тип петли</a>
+                <li class='catalog-filter-item dropdown'>
+                  <a class='catalog-filter-link dropdown-toggle' data-toggle='dropdown' href='#'>Тип петли
+                    <span class='catalog-filter-selected'></span>
+                    <span class='caret'></span>
+                  </a>
                   <ul class='modal-menu-list dropdown-menu'>
-                    <li><a class='dropdown-item' href="#">Item 1</a></li>
-                    <li><a class='dropdown-item' href="#">Item 2</a></li>
-                    <li><a class='dropdown-item' href="#">Item 3</a></li>
+                    <li class='modal-menu-header'>
+                    </li>
+                    <li class='modal-menu-body'>
+                      <div class='modal-menu-filter row'>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 1</span>
+                          </label>
+                        </div>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 2</span>
+                          </label>
+                        </div>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 2</span>
+                          </label>
+                        </div>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 2</span>
+                          </label>
+                        </div>
+                      </div>
+                    </li>
+                    <li class='modal-menu-applying'>
+                      <button type='submit' class='btn-applying'>Применить</button>
+                    </li>
                   </ul>
                 </li>
                 <li class='catalog-filter-item'>
@@ -174,39 +496,164 @@
                     <span class='catalog-filter-input-description'>Узор</span>
                   </label>
                 </li>
-                <li class='catalog-filter-item'>
-                  <a class='catalog-filter-link dropdown-toggle' data-toggle='dropdown' href='#'>Цвет</a>
+                <li class='catalog-filter-item dropdown'>
+                  <a class='catalog-filter-link dropdown-toggle' data-toggle='dropdown' href='#'>Цвет
+                    <span class='catalog-filter-selected'></span>
+                    <span class='caret'></span>
+                  </a>
                   <ul class='modal-menu-list dropdown-menu'>
-                    <li><a class='dropdown-item' href="#">Item 1</a></li>
-                    <li><a class='dropdown-item' href="#">Item 2</a></li>
-                    <li><a class='dropdown-item' href="#">Item 3</a></li>
+                    <li class='modal-menu-header'>
+                    </li>
+                    <li class='modal-menu-body'>
+                      <div class='modal-menu-filter row'>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 1</span>
+                          </label>
+                        </div>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 2</span>
+                          </label>
+                        </div>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 2</span>
+                          </label>
+                        </div>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 2</span>
+                          </label>
+                        </div>
+                      </div>
+                    </li>
+                    <li class='modal-menu-applying'>
+                      <button type='submit' class='btn-applying'>Применить</button>
+                    </li>
                   </ul>
                 </li>
-                <li class='catalog-filter-item'>
-                  <a class='catalog-filter-link dropdown-toggle' data-toggle='dropdown' href='#'>Ширина рулона</a>
+                <li class='catalog-filter-item dropdown'>
+                  <a class='catalog-filter-link dropdown-toggle' data-toggle='dropdown' href='#'>Ширина рулона
+                    <span class='catalog-filter-selected'></span>
+                    <span class='caret'></span>
+                  </a>
                   <ul class='modal-menu-list dropdown-menu'>
-                    <li><a class='dropdown-item' href="#">Item 1</a></li>
-                    <li><a class='dropdown-item' href="#">Item 2</a></li>
-                    <li><a class='dropdown-item' href="#">Item 3</a></li>
+                    <li class='modal-menu-header'>
+                    </li>
+                    <li class='modal-menu-body'>
+                      <div class='modal-menu-filter row'>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 1</span>
+                          </label>
+                        </div>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 2</span>
+                          </label>
+                        </div>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 2</span>
+                          </label>
+                        </div>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 2</span>
+                          </label>
+                        </div>
+                      </div>
+                    </li>
+                    <li class='modal-menu-applying'>
+                      <button type='submit' class='btn-applying'>Применить</button>
+                    </li>
                   </ul>
                 </li>
-                <li class='catalog-filter-item'>
-                  <a class='catalog-filter-link dropdown-toggle' data-toggle='dropdown' href='#'>Звукоизоляция</a>
+                <li class='catalog-filter-item dropdown'>
+                  <a class='catalog-filter-link dropdown-toggle' data-toggle='dropdown' href='#'>Звукоизоляция
+                    <span class='catalog-filter-selected'></span>
+                    <span class='caret'></span>
+                  </a>
                   <ul class='modal-menu-list dropdown-menu'>
-                    <li><a class='dropdown-item' href="#">Item 1</a></li>
-                    <li><a class='dropdown-item' href="#">Item 2</a></li>
-                    <li><a class='dropdown-item' href="#">Item 3</a></li>
+                    <li class='modal-menu-header'>
+                    </li>
+                    <li class='modal-menu-body'>
+                      <div class='modal-menu-filter row'>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 1</span>
+                          </label>
+                        </div>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 2</span>
+                          </label>
+                        </div>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 2</span>
+                          </label>
+                        </div>
+                       </div>
+                    </li>
+                    <li class='modal-menu-applying'>
+                      <button type='submit' class='btn-applying'>Применить</button>
+                    </li>
                   </ul>
                 </li>
-                <li class='catalog-filter-item'>
-                  <a class='catalog-filter-link dropdown-toggle' data-toggle='dropdown' href='#'>Теплопроводность</a>
+                <li class='catalog-filter-item dropdown'>
+                  <a class='catalog-filter-link dropdown-toggle' data-toggle='dropdown' href='#'>Теплопроводность
+                    <span class='catalog-filter-selected'></span>
+                    <span class='caret'></span>
+                  </a>
                   <ul class='modal-menu-list dropdown-menu'>
-                    <li><a class='dropdown-item' href="#">Item 1</a></li>
-                    <li><a class='dropdown-item' href="#">Item 2</a></li>
-                    <li><a class='dropdown-item' href="#">Item 3</a></li>
+                    <li class='modal-menu-header'>
+                    </li>
+                    <li class='modal-menu-body'>
+                      <div class='modal-menu-filter row'>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 1</span>
+                          </label>
+                        </div>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 2</span>
+                          </label>
+                        </div>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 2</span>
+                          </label>
+                        </div>
+                        <div class='modal-menu-filter-item col-12 col-lg-6'>
+                          <label class='modal-menu-filter-link checkbox'>
+                            <input class='modal-menu-filter-input' type='checkbox' value=''>
+                            <span class='modal-menu-filter-input-description'>Item 2</span>
+                          </label>
+                        </div>
+                      </div>
+                    </li>
+                    <li class='modal-menu-applying'>
+                      <button type='submit' class='btn-applying'>Применить</button>
+                    </li>
                   </ul>
                 </li>
-              </li>
               <a class='modal-menu-show-hide'>
                 <button class='btn-open'>Показать еще</button>
               </a>

@@ -123,6 +123,9 @@
   .modal-menu-show-hide {
     display: grid;
   }
+  .modal-menu-list.show {
+    width: 100%;
+  }
 }
 
 
