@@ -1,7 +1,12 @@
 $(document).ready(function() {
   $('.catalog-filter-header').on('click', function(e) {
     e.preventDefault();
-    $('.catalog-filter-list').toggleClass('mobile-open');
+    $('.catalog-filter-list').addClass('mobile-open');
+  });
+
+  $('.catalog-filter-button').on('click', function(e) {
+    e.preventDefault();
+    $('.catalog-filter-list').removeClass('mobile-open');
   });
 
   $(function(){
@@ -10,12 +15,13 @@ $(document).ready(function() {
     });
   });
 
+  $('.checkbox').bind('click', function(e) {
+    $(this).addClass('selected');
+  });
+
   $('.catalog-filter-row').submit(function(e) {
     console.log('send');
   });
 
-  $('.checkbox').bind('click', function(e) {
-    $(this).addClass('selected');
-  });
 });
 
