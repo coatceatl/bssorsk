@@ -57,7 +57,9 @@
 .modal-menu-applying {
   display: grid;
 }
-.modal-menu-applying.main {
+.modal-menu-applying.main,
+.modal-menu-show-hide
+{
   display: none;
 }
 .menu {
