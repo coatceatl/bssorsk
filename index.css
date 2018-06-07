@@ -57,6 +57,9 @@
 .modal-menu-applying {
   display: grid;
 }
+.modal-menu-applying.main {
+  display: none;
+}
 .menu {
   background-color: #f4fbfe;
 }
@@ -105,6 +108,9 @@
   .close {
     margin-top: -5px;
     margin-left: -4px;
+  }
+  .modal-menu-applying.main {
+    display: grid;
   }
 }
 
