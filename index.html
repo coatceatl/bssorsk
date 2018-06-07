@@ -20,6 +20,7 @@
             <ul class='catalog-filter-list'>
               <li class='catalog-filter-item dropdown'>
                 <a class='catalog-filter-link dropdown-toggle' data-toggle='dropdown' href='#'>Цена
+                  <span class='catalog-filter-selected'></span>
                   <span class='caret'></span>
                 </a>
                 <ul class='modal-menu-list dropdown-menu'>
@@ -27,13 +28,13 @@
                   </li>
                   <li class='modal-menu-body'>
                     <div class='modal-menu-filter'>
-                      <div class='modal-menu-filter-item col-6'>
+                      <div class='modal-menu-filter-item col'>
                         <label class='modal-menu-filter-link checkbox'>
                           <input class='modal-menu-filter-input' type='checkbox' value=''>
                           <span class='modal-menu-filter-input-description'>Item1</span>
                         </label>
                       </div>
-                      <div class='modal-menu-filter-item col-6'>
+                      <div class='modal-menu-filter-item col'>
                         <label class='modal-menu-filter-link checkbox'>
                           <input class='modal-menu-filter-input' type='checkbox' value=''>
                           <span class='modal-menu-filter-input-description'>Item 2</span>
@@ -41,7 +42,9 @@
                       </div>
                     </div>
                   </li>
-                  <li class='modal-menu-applying'></li>
+                  <li class='modal-menu-applying'>
+                    <button type='submit' class='btn-applying'>Применить</button>
+                  </li>
                 </ul>
               </li>
               <li class='catalog-filter-item'>
@@ -189,8 +192,11 @@
         </div>
       </div>
     </div>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src='index.js'></script>
+
   </body>
 </html>
