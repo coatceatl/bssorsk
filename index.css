@@ -50,39 +50,43 @@
 .modal-menu-filter-item {
   display: inline-flex;
 }
+.catalog-filter-link.selected {
+  background-color: #61bdfc;
+}
 .menu {
   background-color: #f4fbfe;
 }
 @media(max-width: 768px) {
   .catalog-filter-button {
     display: flex;
-    position: fixed;
+    position: absolute;
     top: 20px;
     right: 20px;
     height: 20px;
     width: 20px;
   }
 
-  .catalog-filter {
-    display: block;
-    position: fixed;
-    top: 0;
+  .catalog-filter-header {
+    width: 100%;
+  }
+  .catalog-filter-list {
+    display: none;
+  }
+
+  .catalog-filter-list.mobile-open {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 100px;
     bottom: 0;
     right: 0;
     left: 40%;
     background-color: #f4fbfe;
   }
 
-  .catalog-filter-header {
-    width: 100%;
-  }
-  .catalog-filter-list {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: 100%;
-    height: 100vh;
-  }
   .catalog-filter-item {
     display: flex;
     flex-direction: row;
@@ -93,6 +97,10 @@
   }
   .dropdown-toggle::after {
     transform: rotate(270deg);
+  }
+  .close {
+    margin-top: -5px;
+    margin-left: -4px;
   }
 }
 

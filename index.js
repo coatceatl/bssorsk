@@ -1,7 +1,9 @@
 $(document).ready(function() {
-  $('.btn-applying').on('click', function(e) {
+  $('.catalog-filter-header').on('click', function(e) {
     e.preventDefault();
-    console.log('selected');
+    $('.catalog-filter-list').toggleClass('mobile-open');
+/*    $('.catalog-filter-button').hide('.catalog-filter-list');*/
+
   });
 });
 
