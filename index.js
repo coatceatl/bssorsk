@@ -9,7 +9,7 @@ $(document).ready(function() {
   });
 
   $('.checkbox').on('click', function(e) {
-    $(this).addClass('selected');
+    $(this).toggleClass('selected');
   });
 
   $('.btn-applying').click(function() {

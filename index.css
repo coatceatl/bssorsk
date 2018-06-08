@@ -55,10 +55,11 @@
   max-width: 400px;
   word-break: break-word;
 }
-.catalog-filter-link.selected,
-.catalog-filter-item.dropdown.selected,
-.catalog-filter-link.dropdown-toggle.selected
+.catalog-filter-link.checkbox.selected
 {
+  background-color: #61bdfc;
+}
+.catalog-filter-item.selected a.catalog-filter-link {
   background-color: #61bdfc;
 }
 .selected:parent {
