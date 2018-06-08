@@ -74,21 +74,19 @@
 }
 @media(max-width: 768px) {
   .catalog-filter-button {
-    display: flex;
+    display: block;
     position: absolute;
     top: 20px;
     right: 20px;
     height: 20px;
     width: 20px;
   }
-
   .catalog-filter-header {
     width: 100%;
   }
   .catalog-filter-list {
     display: none;
   }
-
   .catalog-filter-list.mobile-open {
     display: block;
     width: 100%;
